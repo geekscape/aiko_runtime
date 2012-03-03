@@ -51,17 +51,17 @@ Prerequisites ...
 
 Installation steps ...
 
-- git clone git@github.com:geekscape/aiko_runtime.git
-- cd aiko_runtime
-- git clone git@github.com:geekscape/mqtt_lua.git
+      git clone git@github.com:geekscape/aiko_runtime.git
+      cd aiko_runtime
+      git clone git@github.com:geekscape/mqtt_lua.git
 
 Usage 
 -----
 The following commands maintain an SSH port forwarding tunnel between a
 local MQTT server and a remote MQTT server ...
 
-* cd scripts
-* ./federation_start.sh
+      cd scripts
+      ./federation_start.sh
 
 <a name="problems" />
 Known problems
