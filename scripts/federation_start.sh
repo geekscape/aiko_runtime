@@ -22,7 +22,7 @@
 remote_host=${1:-mqtt.geekscape.org}
 remote_port=1882
 
-local_name=${2:-pohl}
+local_name=${2:-localhost}
 local_port=1883
 
 poll_time=60  # seconds

@@ -20,8 +20,8 @@ components of the Aiko Platform.  The aim is to make it simple to set-up a
 new system to support and participate in a distributed network of devices.
 
 The initial goal will be to support simple networks of Arduino embedded
-controllers, using MQTT servers, application glue developed in Lua and
-Android devices for user interface.  Very basic federation between
+controllers, utilizing MQTT servers, application glue developed in Lua and
+using Android devices for user interface.  Very basic federation between
 remote MQTT servers is included.
 
 The focus will be to ensure that the infrastructure is robust (handles
