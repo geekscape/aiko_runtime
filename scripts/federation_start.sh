@@ -19,8 +19,9 @@
 #  - Not being too impatient when restarting after a failure
 #
 # Note: Public MQTT test servers ...
-#   Paho:    m2m.eclipse.org port 1883
-#   Pachube: api.pachube.com port 1883  # http://pachube.com/docs/beta/mqtt
+#   Eclipse Paho: m2m.eclipse.org:1883
+#   Mosquitto:    test.mosquitto.org:1883  # http://test.mosquitto.org
+#   Pachube:      api.pachube.com:1883     # http://pachube.com/docs/beta/mqtt
 #
 # ToDo
 # ~~~~
