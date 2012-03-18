@@ -18,12 +18,13 @@
 #  - Not sending too many keep_alive messages
 #  - Not being too impatient when restarting after a failure
 #
-# Note: Eclipse Paho project is running a public MQTT test server at ...
-#   m2m.eclipse.org port 1883
+# Note: Public MQTT test servers ...
+#   Paho:    m2m.eclipse.org port 1883
+#   Pachube: api.pachube.com port 1883  # http://pachube.com/docs/beta/mqtt
 #
 # ToDo
 # ~~~~
-# - Make SSH optional for non-secure sites like m2m.eclipse.org.
+# - Make SSH optional for non-secure sites like Paho (Eclipse) and Pachube.
 # --------------------------------------------------------------------------- #
 
 remote_host=${1:-mqtt.geekscape.org}
