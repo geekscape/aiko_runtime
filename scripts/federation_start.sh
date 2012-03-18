@@ -1,7 +1,7 @@
 #!/bin/sh
 # --------------------------------------------------------------------------- #
 # federation_start.sh
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~
 # Please do not remove the following notices.
 # Copyright (c) 2012 by Geekscape Pty. Ltd.
 # Documentation: http://http://geekscape.github.com/aiko_runtime
@@ -17,6 +17,13 @@
 # "poll_time" is chosen as a balance between responsiveness and ...
 #  - Not sending too many keep_alive messages
 #  - Not being too impatient when restarting after a failure
+#
+# Note: Eclipse Paho project is running a public MQTT test server at ...
+#   m2m.eclipse.org port 1883
+#
+# ToDo
+# ~~~~
+# - Make SSH optional for non-secure sites like m2m.eclipse.org.
 # --------------------------------------------------------------------------- #
 
 remote_host=${1:-mqtt.geekscape.org}
